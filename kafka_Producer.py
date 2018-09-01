@@ -29,10 +29,10 @@ class TweetsListeneer (StreamListener):
 		print (status)
 		return True
 def connect_to_twitter(kafkaProducer, tracks):
-	api_key = 'oyd4G1LiUsXekHV1mAKjaUsKn'
-	api_secret = '9LUcHLFPeeE3RWJWvLleE6eCjryJ0MXl320SaF48E8kNJM9U4H'
-	access_token = '2442595039-TqC2ka3stTP1l386gXOyaCr4ZFWODVvTgLIc6xM'
-	access_token_secret = '9YcjIH3XCvt5wqSEyu88je12MCRVjZyRMyHxUbFFdqjn7'
+	api_key = ''
+	api_secret = ''
+	access_token = ''
+	access_token_secret = ''
 	auth = OAuthHandler(api_key,api_secret)
 	auth.set_access_token (access_token, access_token_secret)
 
